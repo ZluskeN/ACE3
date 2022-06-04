@@ -58,8 +58,11 @@ if (!_alreadyCookingOff && { _chanceOfFire >= random 1 }) exitWith {
     true
 };
 
-// Avoid RPT spam
-if (_alreadyCookingOff) exitWith { true };
+// Destroy vehicle if already cooking off
+if (_alreadyCookingOff) exitWith {
+    _vehicle setdamage [1, { _chanceOfFire >= random 1 }]
+    true 
+};
 
 LOG_2("[%1] No Cook-off - Chance of fire [%2]",_vehicle,_chanceOfFire);
 false
