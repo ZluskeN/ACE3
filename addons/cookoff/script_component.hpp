@@ -24,8 +24,8 @@
 #define SMOKE_TIME 10.5
 #define COOKOFF_TIME 14 // Cook off time should be 20s at most due to length of sound files
 #define COOKOFF_TIME_BOX 82.5 // Cook off time for boxes should be significant to allow time for ammo to burn
-#define MIN_TIME_BETWEEN_FLAMES 5
-#define MAX_TIME_BETWEEN_FLAMES 15
+#define MIN_TIME_BETWEEN_FLAMES 0.5
+#define MAX_TIME_BETWEEN_FLAMES 1.5
 #define MAX_TIME_BETWEEN_AMMO_DET 25
 #define MAX_COOKOFF_INTENSITY 10
 
