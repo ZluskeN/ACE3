@@ -493,5 +493,17 @@
             <Korean>화물 아이템을 내린 후 들거나 끌지 여부를 결정합니다.</Korean>
             <Russian>Нужно ли переносить или тащить предметы после их выгрузки.</Russian>
         </Key>
+        <Key ID="STR_ACE_Cargo_cargoNetType">
+            <English>Type of cargo</English>
+        </Key>
+        <Key ID="STR_ACE_Cargo_cargoNetType_description">
+            <English>Choose which cargo type will fit the period of history you are playing.</English>
+        </Key>
+        <Key ID="STR_ACE_Cargo_cargoNetType_modernStyle">
+            <English>Modern style</English>
+        </Key>
+        <Key ID="STR_ACE_Cargo_cargoNetType_ww2">
+            <English>World War 2</English>
+        </Key>
     </Package>
 </Project>
